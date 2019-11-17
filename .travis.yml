@@ -16,12 +16,6 @@ matrix:
         - sudo apt-get install build-essential
         - sudo apt-get install libtool
         - sudo apt-get install autopoint
-    - name: darwin-amd64
-      os: osx
-      env: CGO_ENABLED=1 GOOS=darwin GOARCH=amd64
-      install:
-        - brew install libtool
-        - brew install gettext
 
 before_script:
   - go run build.go -verbose build-all
