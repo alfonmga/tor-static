@@ -1,0 +1,10 @@
+Dockerfile
+.git
+.gitignore
+.gitattributes
+.cache
+/libevent
+/openssl
+/tor
+/xz
+/zlib
