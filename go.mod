@@ -1,4 +1,4 @@
-module github.com/cretz/tor-static
+module github.com/lu4p/tor-static
 
 go 1.14
 
