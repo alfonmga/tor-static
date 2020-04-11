@@ -1,6 +1,6 @@
 FROM lu4p/xcgo:latest
 
-RUN apt-get update && apt-get install -y tor build-essential libtool autopoint wget unzip upx && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y tor upx && rm -rf /var/lib/apt/lists/*
 RUN mkdir -p /go/pkg/mod/github.com/cretz/tor-static
 
 #get linux libs
